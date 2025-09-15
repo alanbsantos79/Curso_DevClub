@@ -6,6 +6,14 @@ let humanScoreNumber = 0
 let machineScoreNumber = 0
 
 
+const GAME_OPTION = {
+    PEDRA:'pedra',
+    PAPEL:'papel',
+    TESOURA:'tesoura'
+
+}
+
+
 
 const playHuman = (humanChoice) =>{
     playTheGame(humanChoice, playMachine())
@@ -14,7 +22,7 @@ const playHuman = (humanChoice) =>{
 
 const playMachine = function(){
    
-    const choices = ['pedra','papel', 'tesoura']
+    const choices = [GAME_OPTION.PEDRA,GAME_OPTION.PAPEL, GAME_OPTION.TESOURA]
     const randomNumber = Math.floor(Math.random() * 3)
     return choices[randomNumber] 
 }
