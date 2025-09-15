@@ -6,18 +6,14 @@
 
 #container-principal{
     border: 1px solid black;
-<<<<<<< HEAD
-    background-color:#6290a9f7;
+    background-color:#251fd9f7;
     width: 400px;
     height: 560px;
     margin: 20px auto;
-=======
-    background-color:#0808f3;
     width: 350px;
     height: 480px;
     margin: 80px auto;
->>>>>>> a003017b438cd34763add33aefdbb8b3af3fe220
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 #container-visor{
